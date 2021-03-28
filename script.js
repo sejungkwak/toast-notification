@@ -1,21 +1,10 @@
 const button = document.querySelector('.btn');
-// const body = document.getElementsByTagName('body');
 
 const colors = ['#264653', '#2a9d8f', '#fb8500', '#e76f51', '#ef476f', '#8338ec'];
 const messages = ['Message One', 'Message Two', 'Message Three', 'Message Four', 'Message Five', 'Message Six'];
 
 let colorPicker;
 let messagePicker;
-
-/* 
-landom color + landom message
-if (body.lastElementChild.tagName === 'div')
-div.style.bottom = lastElementChild.style.height * body.child + margin(15px) * body.child
-else 
-div.style.bottom = 10px;
-
-setTimeout delete firstChild
-*/
 
 button.addEventListener('click', toast);
 
